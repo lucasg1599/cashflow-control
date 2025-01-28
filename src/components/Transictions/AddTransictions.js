@@ -14,7 +14,6 @@ const AddTransaction = () => {
   const [userId, setUserId] = useState(null);
   const [transactions, setTransactions] = useState([]);
 
-  // Monitora estado de autenticação
   useEffect(() => {
     const auth = getAuth();
     const unsubscribe = onAuthStateChanged(auth, (user) => {
