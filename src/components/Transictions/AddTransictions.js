@@ -14,7 +14,7 @@ import {
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import MonthlySummary from "../Sumary/MonthlySummary ";
 import ExpenseChart from "../Chart/ExpenseChart ";
-import InteractiveBudgetChart from "../Chart/BalanceChart";
+import FinancialOverview from "../Chart/BalanceChart";
 
 const AddTransaction = () => {
   const [type, setType] = useState("expense");
@@ -235,7 +235,7 @@ const AddTransaction = () => {
         onDelete={handleDeleteTransaction}
       />
       <ExpenseChart transactions={transactions} />
-      <InteractiveBudgetChart transactions={transactions} />
+      <FinancialOverview transactions={transactions} />
     </div>
   );
 };
