@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AddTransaction from './components/Transictions/AddTransictions';
 import MonthlySummary from './components/Sumary/MonthlySummary ';
-import ExpenseChart from './components/Chart/ExpenseChart ';
-import FinancialOverview from './components/Chart/BalanceChart';
+import ExpenseChart from './components/Chart/FinancialChart';
+import FinancialOverview from './components/Chart/FinancialOverview';
 import Login from './components/login/loginUser';
 import RegisterComponent from './components/Register/RegisterUser';
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Estilização do botão
 const StyledButton = styled.button`
   --primary-color: #808080;
   --secondary-color: #fff;

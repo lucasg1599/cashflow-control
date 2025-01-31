@@ -26,7 +26,6 @@ const Login = () => {
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
 
-  // Torne a função assíncrona
   const handleSubmit = async (e) => {
     e.preventDefault();
     setErrorMessage("");

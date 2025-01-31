@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Importando useNavigate
+import { useNavigate } from "react-router-dom";
 import { isValidCPF } from "./cpfValidation";
 import { criarUsuarioNoFirestore } from "../services/AuthService";
 import styled from "styled-components";
